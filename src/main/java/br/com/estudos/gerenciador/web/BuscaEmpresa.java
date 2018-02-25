@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.web;
+package br.com.estudos.gerenciador.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.alura.gerenciador.Empresa;
-import br.com.alura.gerenciador.dao.EmpresaDAO;
+import br.com.estudos.gerenciador.Empresa;
+import br.com.estudos.gerenciador.dao.EmpresaDAO;
 
 @WebServlet(urlPatterns = "/busca")
 public class BuscaEmpresa extends HttpServlet {

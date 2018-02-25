@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.web;
+package br.com.estudos.gerenciador.web;
 
 import javax.servlet.http.Cookie;
 

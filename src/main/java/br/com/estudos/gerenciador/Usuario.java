@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador;
+package br.com.estudos.gerenciador;
 
 public class Usuario {
 
