@@ -1,7 +1,6 @@
 package br.com.estudos.gerenciador.web;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Collection;
 
 import javax.servlet.RequestDispatcher;
@@ -17,6 +16,11 @@ import br.com.estudos.gerenciador.dao.EmpresaDAO;
 @WebServlet(urlPatterns = "/busca")
 public class BuscaEmpresa extends HttpServlet {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2931418336577684073L;
+
 	public BuscaEmpresa() {
 		System.out.println("construindo a servlet " + this);
 	}

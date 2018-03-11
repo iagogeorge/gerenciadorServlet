@@ -2,12 +2,9 @@ package br.com.estudos.gerenciador.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +15,11 @@ import br.com.estudos.gerenciador.dao.UsuarioDAO;
 
 @WebServlet(urlPatterns = "/login")
 public class Login extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -855230448125135461L;
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

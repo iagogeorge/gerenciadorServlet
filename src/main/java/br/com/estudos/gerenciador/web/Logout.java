@@ -1,7 +1,6 @@
 package br.com.estudos.gerenciador.web;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,6 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/logout")
 public class Logout extends HttpServlet {
+
+
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -719430678789631494L;
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
